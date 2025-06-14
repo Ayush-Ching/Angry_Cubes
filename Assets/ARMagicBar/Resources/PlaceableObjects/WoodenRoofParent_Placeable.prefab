@@ -4114,6 +4114,7 @@ GameObject:
   - component: {fileID: 961816318964877613}
   - component: {fileID: 6465850730588421552}
   - component: {fileID: 1911451811669720855}
+  - component: {fileID: 435773533908584137}
   m_Layer: 0
   m_Name: WoodenRoof
   m_TagString: Untagged
@@ -4620,6 +4621,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &435773533908584137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056164678867387467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43bbff76de4def84dbcdb45899f19414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1911451811669720855}
 --- !u!1 &7479291194274213020
 GameObject:
   m_ObjectHideFlags: 0
