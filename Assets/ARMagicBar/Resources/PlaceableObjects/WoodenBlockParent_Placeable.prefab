@@ -2448,6 +2448,7 @@ GameObject:
   - component: {fileID: 560562762288713740}
   - component: {fileID: 1001427672916282724}
   - component: {fileID: 1584132725688230100}
+  - component: {fileID: 2354142589572101024}
   m_Layer: 0
   m_Name: WoodenBlock
   m_TagString: Untagged
@@ -2578,6 +2579,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43bbff76de4def84dbcdb45899f19414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1001427672916282724}
+--- !u!114 &2354142589572101024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453796740656364561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aa98daf9a3a63e4a88b503badc82971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1001427672916282724}
